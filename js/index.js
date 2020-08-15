@@ -72,4 +72,13 @@ $(function(){
 		$("header .head_2 .banner .right_ div").css({left:-50,"border-radius":"50px 0 0 50px"});
 		$(this).parent().css({"background-color":""});
 	})
+	
+	$(".b").click(function(){
+		var va = $(".t").val();
+		if(va.length == 0){
+			alert("请输入你要检索的内容！");
+		}else{
+			window.open("https://www.baidu.com/s?wd="+va);
+		}
+	})
 })
