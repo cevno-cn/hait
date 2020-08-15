@@ -31,7 +31,6 @@ $(function(){
 				$("header .head_2 .banner ul li:nth-child("+ (j+1) +")").css({"z-index":"9"});
 				$("header .head_2 .banner ul li:nth-child("+i+")").css({"z-index":"9"});
 			}
-			console.log(j);
 			$("header .head_2 .banner ul li:nth-child("+j+")").css({"left":ite[i]});
 		}
 	}
