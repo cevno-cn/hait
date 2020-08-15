@@ -1,0 +1,784 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 1000px;
+}
+.con{
+	width: 1000px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	background-color: #195d97;
+}
+header .head_0{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+header .con{
+	height: 94px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .head_0_1{
+	height: 94px;
+	position: relative;
+}
+header .head_0_1 ul{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+	/* display: flex;
+	justify-content: center; */
+}
+header .head_0_1 li{
+	float: left;
+	height: 30px;
+	margin: 0px 15px;
+}
+header .head_0_1 .av{
+	width: 2px;
+	height: 15px;
+	margin: 7.5px 0;
+	background-image: url(http://www.hait.edu.cn/images/l_03.png);
+}
+header .head_0_1 li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+header .head_0_1 span{
+	display: inline-block;
+	width: 192px;
+	height: 29px;
+	position: relative;
+	top: 20px;
+	float: right;
+}
+header .head_0_1 .t{
+	width: 150px;
+	height: 29px;
+	padding-left: 5px;
+	border: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+header .head_0_1 .b{
+	width: 32px;
+	height: 29px;
+	border: 0;
+	background-image: url(http://www.hait.edu.cn/images/l_10.jpg);
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+header .head_1{
+	width: 100%;
+	height: 44px;
+	background-color: #195d97;
+	box-shadow: 0px -5px 40px rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: center;
+	color: white;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 999;
+}
+header .head_1 .con{
+	width: 1000px;
+	height: 44px;
+}
+header .head_1>.con>ul{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+header .head_1>.con>ul>li{
+	display: inline-block;
+	width: 142px;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	line-height: 44px;
+}
+header .head_1>.con>ul>li>a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+}
+header .head_1>.con>ul>li>a::before{
+	content: "";
+	display: inline-block;
+	width: 6px;
+	height: 5px;
+	background-image: url(http://www.hait.edu.cn/images/l_15.jpg);
+	position: absolute;
+	right: -10px;
+	top: 10px;
+}
+header .head_1>.con>ul>li>ul{
+	list-style: none;
+	width: 100%;
+	background-color: #195D97;
+	display: none;
+}
+header .head_1>.con>ul>li>ul>li{
+	width: 100%;
+	height: 21px;
+	position: relative;
+	line-height: normal;
+	text-align: left;
+	font-size: 15px;
+	border-bottom: 1px solid white;
+	padding: 2px 0;
+}
+header .head_1>.con>ul>li>ul>li:hover{
+	opacity: 1;
+	background-color: deepskyblue;
+}
+header .head_1>.con>ul>li>ul>li>a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+header .head_1>.con>ul>li>ul>li>ul{
+	list-style: none;
+	width: 142px;
+	position: absolute;
+	top: 0;
+	left: 142px;
+	background-color: #195D97;
+	display: none;
+}
+header .head_1>.con>ul>li>ul>li:nth-child(3)>ul,header .head_1>.con>ul>li>ul>li:nth-child(4)>ul{
+	width: 202px;
+}
+header .head_1>.con>ul>li>ul>li>ul>li{
+	width: 100%;
+	height: 21px;
+	position: relative;
+	line-height: normal;
+	text-align: left;
+	font-size: 15px;
+	border-bottom: 1px solid white;
+	padding: 2px 0;
+}
+header .head_1>.con>ul>li>ul>li>ul>li:hover{
+	opacity: 1;
+	background-color: deepskyblue;
+}
+header .head_1>.con>ul>li>ul>li>ul>li>a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+header .head_2{
+	min-width: 1212px;
+	width: 100%;
+	height: 340px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+header .head_2 .banner{
+	width: 1212px;
+	height: 340px;
+	position: relative;
+}
+header .head_2 .banner span{
+	display: inline-block;
+	width: 100%;
+	height: 340px;
+	position: absolute;
+	top: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 999;
+	cursor: pointer;
+}
+header .head_2 .banner span p{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 999;
+}
+header .head_2 .banner span div{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.3);
+	transition: all .5s;
+}
+header .head_2 .banner span div:hover{
+	background-color: rgba(255,0,0,0.5);
+}
+header .head_2 .banner span div i{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+header .head_2 .banner .left_{
+	left: -100%;
+}
+header .head_2 .banner .left_ div{
+	right: -50px;
+	border-radius: 0 50px 50px 0;
+}
+header .head_2 .banner .left_ div i{
+	background: url(http://www.hait.edu.cn/images/icon111.png) center no-repeat;
+}
+header .head_2 .banner .right_{
+	right: -100%;
+}
+header .head_2 .banner .right_ div{
+	left: -50px;
+	border-radius: 50px 0 0 50px;
+}
+header .head_2 .banner .right_ div i{
+	background: url(http://www.hait.edu.cn/images/icon222.png) center no-repeat;
+}
+header .head_2 .banner ul{
+	list-style: none;
+	height: 340px;
+	position: relative;
+}
+header .head_2 .banner ul li{
+	width: 1212px;
+	height: 100%;
+	float: left;
+	position: absolute;
+	transition: all .5s;
+}
+/* header .head_2 .banner ul li:nth-child(1),
+header .head_2 .banner ul li:nth-child(2),
+header .head_2 .banner ul li:nth-child(13),
+header .head_2 .banner ul li:nth-child(14){
+	position: absolute;
+	top: 0;
+	
+} */
+header .head_2 .banner ul li:nth-child(1){
+	left: 0px;
+}
+header .head_2 .banner ul li:nth-child(2){
+	left: 1212px;
+}
+header .head_2 .banner ul li:nth-child(3){
+	left: 2424px;
+}
+header .head_2 .banner ul li:nth-child(4){
+	left: 3636px;
+}
+header .head_2 .banner ul li:nth-child(5){
+	left: 4848px;
+}
+header .head_2 .banner ul li:nth-child(6){
+	left: 6060px;
+}
+header .head_2 .banner ul li:nth-child(7){
+	left: -4848px;
+}
+header .head_2 .banner ul li:nth-child(8){
+	left: -3636px;
+}
+header .head_2 .banner ul li:nth-child(9){
+	left: -2424px;
+}
+header .head_2 .banner ul li:nth-child(10){
+	left: -1212px;
+}
+header .head_2 .banner ul li img{
+	width: 1212px;
+	height: 340px;
+	position: relative;
+}
+
+
+
+section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #fafafa;
+	padding-bottom: 20px;
+}
+section .sec_0{
+	width: 1000px;
+	margin-top: 15px;
+}
+.sec_0 p{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 30px;
+}
+.sec_0 p b{
+	color: #385d94;
+	font-weight: bold;
+	font-size: 20px;
+}
+.sec_0 p b i{
+	font-size: 15px;
+	color: #868686;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.sec_0 p span a{
+	text-decoration: none;
+	color: #848484;
+	font-size: 12px;
+}
+.sec_0 div{
+	width: 1000px;
+	height: 211px;
+	margin-top: 15px;
+}
+.sec_0 div span{
+	display: block;
+	width: 234px;
+	height: 211px;
+	float: left;
+	margin-left: 21px;
+}
+.sec_0 div span:nth-child(1){
+	margin-left: 0px;
+}
+.sec_0 div span img{
+	width: 100%;
+	height: 166px;
+}
+.sec_0 div span a{
+	font-size: 14px;
+	color: #393939;
+	display: block;
+	width: 234px;
+	height: 40px;
+	padding-top: 5px;
+	text-decoration: none;
+}
+.sec_1{
+	width: 1000px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.sec_1 .sec_1_0{
+	width: 610px;
+	height: auto;
+	/* overflow: hidden; */
+	float: left;
+}
+.sec_1 .sec_1_0 .cam{
+	width: 610px;
+	height: auto;
+}
+.sec_1 .sec_1_1{
+	width: 353px;
+	height: auto;
+	float: right;
+}
+
+.cam p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.cam p b{
+	color: #385d94;
+	font-weight: bold;
+	font-size: 20px;
+}
+.cam p b i{
+	font-size: 15px;
+	color: #868686;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.cam p span a{
+	text-decoration: none;
+	color: #848484;
+	font-size: 12px;
+}
+.cam ul{
+	list-style: none;
+	margin-top: 10px;
+}
+.cam ul li{
+	background: url(http://www.hait.edu.cn/images/arr_03.png) no-repeat left center;
+	padding-left: 18px;
+	line-height: 33px;
+	font-size: 14px;
+}
+.cam ul li a{
+	text-decoration: none;
+	color: black;
+}
+.cam ul li span{
+	float: right;
+}
+
+.qui{
+	margin-top: 15px;
+}
+.qui p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.qui p b{
+	color: #385d94;
+	font-weight: bold;
+	font-size: 20px;
+}
+.qui p b i{
+	font-size: 15px;
+	color: #868686;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.qui p span a{
+	text-decoration: none;
+	color: #848484;
+	font-size: 12px;
+}
+.qui ul{
+	list-style: none;
+	height: 64px;
+}
+.qui ul li{
+	float: left;
+	width: 102px;
+	height: 17px;
+	text-align: center;
+	border-left: 1px solid #b3b3b3;
+	font-size: 15px;
+	line-height: 17px;
+	margin-top: 15px;
+}
+.qui ul li:nth-child(1),.qui ul li:nth-child(7){
+	text-align: left;
+	border-left: 0;
+	width: 85px;
+}
+.qui ul li a{
+	color: black;
+}
+.qui div{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.qui div a{
+	margin: 0px 10px;
+}
+.qui div a:nth-child(1){
+	margin-left: 0;
+}
+.qui div a:nth-child(3){
+	margin-right: 0;
+}
+.qui div a img{
+	display: block;
+	width: 190px;
+	height: 45px;
+}
+
+.oa{
+	margin-top: 15px;
+}
+.oa p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.oa p b{
+	color: #393939;
+	font-weight: bold;
+	font-size: 20px;
+}
+.oa p span a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.oa div{
+    width: 610px;
+	height: 35px;
+    height: auto;
+    margin-top: 15px;
+	display: flex;
+	align-items: center;
+}
+.oa div .o{
+	display: inline-block;
+	width: 70px;
+	height: 28px;
+}
+.oa div .user{
+	background: url(http://www.hait.edu.cn/images/hn_66.png) no-repeat left;
+}
+.oa div .pw{
+	background: url(http://www.hait.edu.cn/images/hn_69.png) no-repeat left;
+}
+.oa div input{
+	width: 139px;
+	height: 28px;
+	background: url(http://www.hait.edu.cn/images/hn_58.png) #faffbd no-repeat left center;
+	border: 0;
+}
+.oa div .dz{
+	margin-left: 15px;
+}
+.oa div .dz a{
+	display: inline-block;
+	width: 77px;
+	height: 30px;
+}
+.oa div .dz a:nth-child(1){
+	background: url(http://www.hait.edu.cn/images/hn_61.png) no-repeat left;
+}
+.oa div .dz a:nth-child(2){
+	background: url(http://www.hait.edu.cn/images/hn_63.png) no-repeat left;
+}
+
+.ann p{
+	height: 30px;
+	line-height: 30px;
+	background: url(http://www.hait.edu.cn/images/hn_11.png) no-repeat;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+.ann p b{
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+}
+.ann p b i{
+	font-size: 12px;
+	color: white;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.ann p span a{
+	color: white;
+	font-size: 12px;
+}
+.ann ul{
+	list-style: none;
+	margin-top: 10px;
+}
+.ann ul li{
+	background: url(http://www.hait.edu.cn/images/arr_03.png) no-repeat left center;
+	padding-left: 18px;
+	line-height: 33px;
+	font-size: 14px;
+}
+.ann ul li a{
+	text-decoration: none;
+	color: black;
+}
+.ann ul li .red{
+	font-weight: 900;
+	color: #f00505;
+}
+.ann ul li span{
+	float: right;
+}
+.ser{
+	margin-top: 15px;
+}
+.ser p{
+	height: 30px;
+	line-height: 30px;
+	background: url(http://www.hait.edu.cn/images/hn_14.png) no-repeat;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+.ser p b{
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+}
+.ser p b i{
+	font-size: 12px;
+	color: white;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.ser ul li{
+	float: left;
+	border: 1px solid #e5e5e5;
+	width: 170px;
+	height: 37px;
+	margin-top: 8px;
+	margin-right: 8px;
+	position: relative;
+}
+.ser ul li:hover{
+	border: 1px solid red;
+}
+.ser ul li:nth-child(1){
+	background: url(http://www.hait.edu.cn/images/hn_23.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(1):hover{
+	background: url(http://www.hait.edu.cn/images/h_06.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(2){
+	margin-right: 0px;
+	background: url(http://www.hait.edu.cn/images/hn_20.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(2):hover{
+	background: url(http://www.hait.edu.cn/images/h_03.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(3){
+	background: url(http://www.hait.edu.cn/images/h_10.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(3):hover{
+	background: url(http://www.hait.edu.cn/images/hn_29.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(4){
+	margin-right: 0px;
+	background: url(http://www.hait.edu.cn/images/hn_30.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(4):hover{
+	background: url(http://www.hait.edu.cn/images/h_11.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(5){
+	background: url(http://www.hait.edu.cn/images/hn_40.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(5):hover{
+	background: url(http://www.hait.edu.cn/images/h_15.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(6){
+	margin-right: 0px;
+	background: url(http://www.hait.edu.cn/images/hn_43.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(6):hover{
+	background: url(http://www.hait.edu.cn/images/h_17.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(7){
+	background: url(http://www.hait.edu.cn/images/hn_50.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(7):hover{
+	background: url(http://www.hait.edu.cn/images/h_22.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(8){
+	margin-right: 0px;
+	background: url(http://www.hait.edu.cn/images/hn_53.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(8):hover{
+	background: url(http://www.hait.edu.cn/images/h_25.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(9){
+	background: url(http://www.hait.edu.cn/images/hn_72.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(9):hover{
+	background: url(http://www.hait.edu.cn/images/h_30.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(10){
+	margin-right: 0px;
+	background: url(http://www.hait.edu.cn/images/hn_73.png) no-repeat 15px center #fff;
+}
+.ser ul li:nth-child(10):hover{
+	background: url(http://www.hait.edu.cn/images/h_31.jpg) no-repeat 15px center #fff;
+}
+.ser ul li div{
+	width: 5px;
+	height: 37px;
+	background: url(http://www.hait.edu.cn/images/hn_17.png) no-repeat left center;
+	position: absolute;
+	left: 50px;
+}
+.ser ul li:hover>div{
+	background: url(http://www.hait.edu.cn/images/hn_28.png) no-repeat left center;
+}
+.ser ul li a{
+	position: absolute;
+	line-height: 37px;
+	font-size: 14px;
+	left: 85px;
+	color: black;
+}
+.ser ul li:hover>a{
+	color: red;
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background: url(http://www.hait.edu.cn/images/hn_82.png) repeat-x;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+}
+footer .con{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.f_0{
+	text-align: center;
+}
+.f_0 img{
+	width: 85px;
+	height: 85px;
+}
+.f_0 p{
+	color: white;
+	font-size: 12px;
+}
+.f_1{
+	text-align: center;
+	color: white;
+	font-size: 13px;
+}
+.f_1 p{
+	line-height: 28px;
+}
+.f_1 a{
+	color: white;
+}
+.f_2{
+	width: 180px;
+	height: 50px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.f_2 p{
+	font-size: 12px;
+	float: left;
+	line-height: 60px;
+}
+.f_2 img{
+	width: 50px;
+	height: 50px;
+}
