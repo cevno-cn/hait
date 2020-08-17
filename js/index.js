@@ -84,7 +84,7 @@ $(function(){
 	
 	// 悬浮	
 	var add_x = 1,
-		add_y = 2;
+		add_y = 1;
 		
 	var su=document.getElementById("suspension");
 	var timl = null;
