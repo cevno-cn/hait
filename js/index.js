@@ -80,4 +80,83 @@ $(function(){
 			window.open("https://www.baidu.com/s?wd="+va);
 		}
 	})
+	
+	
+	// 悬浮	
+	var add_x = 1,
+		add_y = 2;
+		
+	var su=document.getElementById("suspension");
+	var timl = null;
+	timl = setInterval(function(){
+		var top_ =  su.offsetTop + add_y,
+			left_ = su.offsetLeft + add_x;
+			
+		var su_w = $("#suspension").width(),
+			su_h = $("#suspension").height();
+			
+		var win_x = document.documentElement.clientWidth - su_w,
+			win_y = document.documentElement.clientHeight - su_h;
+		
+		if(left_ >= win_x){
+			add_x *= -1;
+			left_ = win_x;
+		}else if(left_ <= 0){
+			add_x *= -1;
+			left_ = 0
+		}
+		
+		if(top_ >= win_y){
+			add_y *= -1;
+			top_ = win_y;
+		}else if(top_ <= 0){
+			add_y *= -1;
+			top_ = 0
+		}
+		$("#suspension").css({top: top_ + "px", left: left_ + "px"});
+	},10)
+	
+	$("#suspension").hover(function(){
+		clearInterval(timl);
+	},function(){
+		timl = setInterval(function(){
+			var top_ =  su.offsetTop + add_y,
+				left_ = su.offsetLeft + add_x;
+				
+			var su_w = $("#suspension").width(),
+				su_h = $("#suspension").height();
+				
+			var win_x = document.documentElement.clientWidth - su_w,
+				win_y = document.documentElement.clientHeight - su_h;
+			
+			if(left_ >= win_x){
+				add_x *= -1;
+				left_ = win_x;
+			}else if(left_ <= 0){
+				add_x *= -1;
+				left_ = 0
+			}
+			
+			if(top_ >= win_y){
+				add_y *= -1;
+				top_ = win_y;
+			}else if(top_ <= 0){
+				add_y *= -1;
+				top_ = 0
+			}
+			$("#suspension").css({top: top_ + "px", left: left_ + "px"});
+		},10);
+	})
+	
+	$("#suspension span").click(function(){
+		$(this).parent().fadeOut();
+	})
+	
+	
+	
+	
+	
+	
+	
+	
 })
