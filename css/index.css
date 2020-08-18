@@ -188,7 +188,7 @@ header .head_1>.con>ul>li>ul>li>ul>li>a{
 }
 
 header .head_2{
-	min-width: 1212px;
+	min-width: 1000px;
 	width: 100%;
 	height: 340px;
 	display: flex;
