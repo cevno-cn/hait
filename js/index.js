@@ -59,14 +59,14 @@ $(function(){
 	
 	$("header .head_2 .banner .left_ p").hover(function(){
 		$("header .head_2 .banner .left_ div").css({right:0,"border-radius":"50px 0 0 50px"});
-		$(this).parent().css({"background-color":"rgba(0,0,0,0.5)"});
+		$(this).parent().css({"background-color":"rgba(0,0,0,0.2)"});
 	},function(){
 		$("header .head_2 .banner .left_ div").css({right:-50,"border-radius":"0px 50px 50px 0"});
 		$(this).parent().css({"background-color":""});
 	})
 	$("header .head_2 .banner .right_ p").hover(function(){
 		$("header .head_2 .banner .right_ div").css({left:0,"border-radius":"0 50px 50px 0"});
-		$(this).parent().css({"background-color":"rgba(0,0,0,0.5)"});
+		$(this).parent().css({"background-color":"rgba(0,0,0,0.2)"});
 	},function(){
 		$("header .head_2 .banner .right_ div").css({left:-50,"border-radius":"50px 0 0 50px"});
 		$(this).parent().css({"background-color":""});
