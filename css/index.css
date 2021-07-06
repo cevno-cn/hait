@@ -49,7 +49,7 @@ header .head_0_1 .av{
 	width: 2px;
 	height: 15px;
 	margin: 7.5px 0;
-	background-image: url(http://www.hait.edu.cn/images/l_03.png);
+	background-image: url(http://old.hait.edu.cn/images/l_03.png);
 }
 header .head_0_1 li a{
 	color: #fff;
@@ -77,7 +77,7 @@ header .head_0_1 .b{
 	width: 32px;
 	height: 29px;
 	border: 0;
-	background-image: url(http://www.hait.edu.cn/images/l_10.jpg);
+	background-image: url(http://old.hait.edu.cn/images/l_10.jpg);
 	cursor: pointer;
 	position: absolute;
 	top: 0;
@@ -125,7 +125,7 @@ header .head_1>.con>ul>li>a::before{
 	display: inline-block;
 	width: 6px;
 	height: 5px;
-	background-image: url(http://www.hait.edu.cn/images/l_15.jpg);
+	background-image: url(http://old.hait.edu.cn/images/l_15.jpg);
 	position: absolute;
 	right: -10px;
 	top: 10px;
@@ -245,7 +245,7 @@ header .head_2 .banner .left_ div{
 	border-radius: 0 50px 50px 0;
 }
 header .head_2 .banner .left_ div i{
-	background: url(http://www.hait.edu.cn/images/icon111.png) center no-repeat;
+	background: url(http://old.hait.edu.cn/images/icon111.png) center no-repeat;
 }
 header .head_2 .banner .right_{
 	right: -100%;
@@ -255,7 +255,7 @@ header .head_2 .banner .right_ div{
 	border-radius: 50px 0 0 50px;
 }
 header .head_2 .banner .right_ div i{
-	background: url(http://www.hait.edu.cn/images/icon222.png) center no-repeat;
+	background: url(http://old.hait.edu.cn/images/icon222.png) center no-repeat;
 }
 header .head_2 .banner ul{
 	list-style: none;
@@ -428,7 +428,7 @@ section .sec_0{
 	margin-top: 10px;
 }
 .cam ul li{
-	background: url(http://www.hait.edu.cn/images/arr_03.png) no-repeat left center;
+	background: url(http://old.hait.edu.cn/images/arr_03.png) no-repeat left center;
 	padding-left: 18px;
 	line-height: 33px;
 	font-size: 14px;
@@ -541,15 +541,15 @@ section .sec_0{
 	height: 28px;
 }
 .oa div .user{
-	background: url(http://www.hait.edu.cn/images/hn_66.png) no-repeat left;
+	background: url(http://old.hait.edu.cn/images/hn_66.png) no-repeat left;
 }
 .oa div .pw{
-	background: url(http://www.hait.edu.cn/images/hn_69.png) no-repeat left;
+	background: url(http://old.hait.edu.cn/images/hn_69.png) no-repeat left;
 }
 .oa div input{
 	width: 139px;
 	height: 28px;
-	background: url(http://www.hait.edu.cn/images/hn_58.png) #faffbd no-repeat left center;
+	background: url(http://old.hait.edu.cn/images/hn_58.png) #faffbd no-repeat left center;
 	border: 0;
 }
 .oa div .dz{
@@ -561,16 +561,16 @@ section .sec_0{
 	height: 30px;
 }
 .oa div .dz a:nth-child(1){
-	background: url(http://www.hait.edu.cn/images/hn_61.png) no-repeat left;
+	background: url(http://old.hait.edu.cn/images/hn_61.png) no-repeat left;
 }
 .oa div .dz a:nth-child(2){
-	background: url(http://www.hait.edu.cn/images/hn_63.png) no-repeat left;
+	background: url(http://old.hait.edu.cn/images/hn_63.png) no-repeat left;
 }
 
 .ann p{
 	height: 30px;
 	line-height: 30px;
-	background: url(http://www.hait.edu.cn/images/hn_11.png) no-repeat;
+	background: url(http://old.hait.edu.cn/images/hn_11.png) no-repeat;
 	display: flex;
 	justify-content: space-between;
 	padding: 0 10px;
@@ -595,7 +595,7 @@ section .sec_0{
 	margin-top: 10px;
 }
 .ann ul li{
-	background: url(http://www.hait.edu.cn/images/arr_03.png) no-repeat left center;
+	background: url(http://old.hait.edu.cn/images/arr_03.png) no-repeat left center;
 	padding-left: 18px;
 	line-height: 33px;
 	font-size: 14px;
@@ -617,7 +617,7 @@ section .sec_0{
 .ser p{
 	height: 30px;
 	line-height: 30px;
-	background: url(http://www.hait.edu.cn/images/hn_14.png) no-repeat;
+	background: url(http://old.hait.edu.cn/images/hn_14.png) no-repeat;
 	display: flex;
 	justify-content: space-between;
 	padding: 0 10px;
@@ -646,79 +646,79 @@ section .sec_0{
 	border: 1px solid red;
 }
 .ser ul li:nth-child(1){
-	background: url(http://www.hait.edu.cn/images/hn_23.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_23.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(1):hover{
-	background: url(http://www.hait.edu.cn/images/h_06.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_06.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(2){
 	margin-right: 0px;
-	background: url(http://www.hait.edu.cn/images/hn_20.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_20.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(2):hover{
-	background: url(http://www.hait.edu.cn/images/h_03.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_03.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(3){
-	background: url(http://www.hait.edu.cn/images/h_10.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_10.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(3):hover{
-	background: url(http://www.hait.edu.cn/images/hn_29.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_29.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(4){
 	margin-right: 0px;
-	background: url(http://www.hait.edu.cn/images/hn_30.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_30.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(4):hover{
-	background: url(http://www.hait.edu.cn/images/h_11.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_11.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(5){
-	background: url(http://www.hait.edu.cn/images/hn_40.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_40.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(5):hover{
-	background: url(http://www.hait.edu.cn/images/h_15.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_15.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(6){
 	margin-right: 0px;
-	background: url(http://www.hait.edu.cn/images/hn_43.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_43.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(6):hover{
-	background: url(http://www.hait.edu.cn/images/h_17.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_17.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(7){
-	background: url(http://www.hait.edu.cn/images/hn_50.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_50.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(7):hover{
-	background: url(http://www.hait.edu.cn/images/h_22.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_22.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(8){
 	margin-right: 0px;
-	background: url(http://www.hait.edu.cn/images/hn_53.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_53.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(8):hover{
-	background: url(http://www.hait.edu.cn/images/h_25.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_25.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(9){
-	background: url(http://www.hait.edu.cn/images/hn_72.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_72.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(9):hover{
-	background: url(http://www.hait.edu.cn/images/h_30.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_30.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(10){
 	margin-right: 0px;
-	background: url(http://www.hait.edu.cn/images/hn_73.png) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/hn_73.png) no-repeat 15px center #fff;
 }
 .ser ul li:nth-child(10):hover{
-	background: url(http://www.hait.edu.cn/images/h_31.jpg) no-repeat 15px center #fff;
+	background: url(http://old.hait.edu.cn/images/h_31.jpg) no-repeat 15px center #fff;
 }
 .ser ul li div{
 	width: 5px;
 	height: 37px;
-	background: url(http://www.hait.edu.cn/images/hn_17.png) no-repeat left center;
+	background: url(http://old.hait.edu.cn/images/hn_17.png) no-repeat left center;
 	position: absolute;
 	left: 50px;
 }
 .ser ul li:hover>div{
-	background: url(http://www.hait.edu.cn/images/hn_28.png) no-repeat left center;
+	background: url(http://old.hait.edu.cn/images/hn_28.png) no-repeat left center;
 }
 .ser ul li a{
 	position: absolute;
@@ -734,7 +734,7 @@ section .sec_0{
 footer{
 	width: 100%;
 	height: 150px;
-	background: url(http://www.hait.edu.cn/images/hn_82.png) repeat-x;
+	background: url(http://old.hait.edu.cn/images/hn_82.png) repeat-x;
 	background-size: 100%;
 	display: flex;
 	justify-content: center;
